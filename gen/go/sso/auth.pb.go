@@ -4,7 +4,7 @@
 // 	protoc        v6.32.1
 // source: sso/auth.proto
 
-package auth
+package gen
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -332,7 +332,7 @@ const file_sso_auth_proto_rawDesc = "" +
 	"\x04Auth\x129\n" +
 	"\bRegister\x12\x15.auth.RegisterRequest\x1a\x16.auth.RegisterResponse\x120\n" +
 	"\x05Login\x12\x12.auth.LoginRequest\x1a\x13.auth.LoginResponse\x126\n" +
-	"\aIsAdmin\x12\x14.auth.IsAdminRequest\x1a\x15.auth.IsAdminResponseB(Z&github.com/waaffle/protos/gen/sso/authb\x06proto3"
+	"\aIsAdmin\x12\x14.auth.IsAdminRequest\x1a\x15.auth.IsAdminResponseB*Z(github.com/waaffle/protos/gen/go/sso;genb\x06proto3"
 
 var (
 	file_sso_auth_proto_rawDescOnce sync.Once
