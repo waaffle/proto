@@ -1,4 +1,4 @@
-module proto
+module github.com/waaffle/proto
 
 go 1.25.1
 
