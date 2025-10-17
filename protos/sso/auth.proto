@@ -21,7 +21,7 @@ message LoginRequest {
     int32 appId = 3;
 }
 message LoginResponse {
-    int32 token = 1;
+    string token = 1;
 }
 message IsAdminRequest {
     int64 userId = 1;
